@@ -1,0 +1,22 @@
+{
+  "trade": "2026-11-19",
+  "note": "Caso di esempio nov 2026: 5x6k, mix IT/FR, tutto sotto la pari, rimborso max 25/02/2031. Ordini del 19/11/2026, valuta T+2 = 23/11/2026. Prezzi: OAT chiusura Euronext 19/11/2026, BTP quotazioni MOT 19/11/2026 17:39. Le OAT pagano una cedola l'anno alla data anniversario della scadenza; i BTP due.",
+  "stamp_duty": 0.002,
+  "bonds": [
+    {"isin": "FR001400Z2L7", "name": "OAT 2,70% feb 2031",
+     "coupon": 2.70, "maturity": "2031-02-25", "price": 94.89,
+     "invested": 6000, "price_status": "verified"},
+    {"isin": "FR001400XLW2", "name": "OAT 2,40% set 2028",
+     "coupon": 2.40, "maturity": "2028-09-24", "price": 97.95,
+     "invested": 6000, "price_status": "verified"},
+    {"isin": "IT0005637399", "name": "BTP 2,95% lug 2030",
+     "coupon": 2.95, "maturity": "2030-07-01", "price": 97.31,
+     "invested": 6000, "price_status": "verified"},
+    {"isin": "IT0005024234", "name": "BTP 3,50% mar 2030",
+     "coupon": 3.50, "maturity": "2030-03-01", "price": 99.47,
+     "invested": 6000, "price_status": "verified"},
+    {"isin": "IT0005654642", "name": "BTP 2,70% ott 2030",
+     "coupon": 2.70, "maturity": "2030-10-01", "price": 96.13,
+     "invested": 6000, "price_status": "verified"}
+  ]
+}
