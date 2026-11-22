@@ -3,12 +3,6 @@
 Caso completo di riferimento. Serve come: (a) formato atteso delle uscite,
 (b) numeri di controllo per `bondcalc.py` (test di regressione).
 
-> **Versione 1.1 — numeri ricalcolati.** La versione 1.0 dello script
-> trattava le OAT come semestrali, ignorava il rateo, considerava esente il
-> guadagno a scadenza e non arrotondava ai lotti: i netti erano gonfiati di
-> 35-45 bp (OAT feb 2031: 3,87% → **3,53%**). I numeri qui sotto sono
-> quelli corretti.
-
 ## Profilo e vincoli (di esempio)
 
 - Investitore retail italiano, broker (banca), regime amministrato →

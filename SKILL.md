@@ -188,8 +188,7 @@ secondario via broker.
   controllo.
 - **Trattare OAT e bonos come semestrali**: pagano una volta l'anno, alla
   data anniversario della scadenza (OAT 2,40% 24/09/2028 → ogni 24/09,
-  ultima cedola insieme al rimborso). Errore della v1.0: gonfiava i
-  rendimenti e inventava mesi di cedola.
+  ultima cedola insieme al rimborso).
 - **Ignorare il rateo**: il prezzo quotato è secco; comprando a novembre un
   titolo che stacca a febbraio paghi ~9 mesi di cedola in più. Senza rateo
   il netto risulta gonfiato di 20-40 bp.

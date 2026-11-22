@@ -71,8 +71,7 @@ incassi la cedola intera.
 - Il rateo **è un esborso vero in più** il giorno dell'acquisto: per l'OAT
   feb 2031 comprata il 23/11/2026 sono ~2 punti su 100 (9 mesi di cedola).
 - Ignorarlo (pagare 94,89 e incassare tutta la prima cedola) **gonfia il
-  rendimento** di decine di bp sui titoli a cedola annuale. È l'errore
-  principale della versione 1.0 dello script.
+  rendimento** di decine di bp sui titoli a cedola annuale.
 - Rateo ACT/ACT: `cedola_per_stacco × giorni_dall'ultimo_stacco / giorni_del_periodo`.
 
 ## Valuta (settlement) e lotti

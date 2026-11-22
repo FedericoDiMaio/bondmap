@@ -75,11 +75,3 @@ La skill lavora in 4 fasi: (0) vincoli → (1) dati reali → (2) calcolo con
 - Nominali arrotondati al lotto minimo, valuta T+2 lavorativi.
 - Test di regressione: `python3 scripts/bondcalc.py references/example_portfolio.json`
   deve dare IRR netto **3,34%** (output completo in `example_report.md`).
-
-## Changelog
-
-- **1.1.0** — corretti: OAT/bonos con cedola annuale (non semestrale), rateo
-  incluso nell'esborso, 12,5% sul guadagno a scadenza, bollo 0,20%, lotti
-  minimi, valuta T+2, scadenze BTP non sempre il 1° del mese, descrizione
-  delle aste. I netti della 1.0 erano sovrastimati di 35-45 bp.
-- **1.0.0** — prima versione.
